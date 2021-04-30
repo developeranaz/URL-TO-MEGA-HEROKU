@@ -1,4 +1,6 @@
 # URL-TO-MEGA-HEROKU
+# Still under development 
+# work not yet started
 Aria2c downloads url and upload to mega account using rclone
 Multi threat download upto x10
 # screenshots
