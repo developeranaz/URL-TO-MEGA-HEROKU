@@ -12,4 +12,6 @@ Multi threat download upto x10
 
 this repo is under development
 
+##### Donate me BTC: 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c
+
 don't peek here 😁😜
