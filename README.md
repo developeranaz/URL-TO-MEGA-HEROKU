@@ -1,4 +1,5 @@
 # URL-TO-MEGA-HEROKU
+# Don't Clone this repo work may be completed Within 2-5 days
 # Still under development 
 # work not yet started
 Aria2c downloads url and upload to mega account using rclone
