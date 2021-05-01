@@ -172,7 +172,7 @@
    "source": [
     "# stacked right hand side\n",
     "\n",
-    "text_0 = widgets.HTML(value=\"<center><h1><u>Aria2Rclone</u></h1></center>\")\n",
+    "text_0 = widgets.HTML(value=\"<center><h1><u>Aria2Mega</u></h1></center>\")\n",
     "text_1 = widgets.HTML(value=\"<h4>Threat or Max connection Per download 👇</h4>\")\n",
     "line1 = widgets.HTML(value=\"<hr>\")\n",
     "btc= widgets.HTML(value=\"<h5>DONATE BTC: 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c <br> Developed by developeranaz <br> Issues can be reported here <a> https://github.com/developeranaz/URL-TO-MEGA-HEROKU </a></h5>\")\n",
