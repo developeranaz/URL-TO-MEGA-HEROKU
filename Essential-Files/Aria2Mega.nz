@@ -34,7 +34,7 @@
    "source": [
     "# Image Widget\n",
     "\n",
-    "file = open(\"Aria2Rclone.jpg\", \"rb\")\n",
+    "file = open(\"Aria2Mega.jpg\", \"rb\")\n",
     "image = file.read()\n",
     "\n",
     "image_headline = widgets.Image(\n",
