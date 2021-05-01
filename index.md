@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# URL-TO-MEGA-HEROKU-ARIA2
+ Still under development
+Aria2c download url & magnet(currently not available) upload remotely to mega account using rclone.
 
-You can use the [editor on GitHub](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Help me fixing readme.md 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/URL-TO-MEGA-HEROKU)
 
-### Markdown
+###### Star my Repository & Support me
+# Features 
+ * Multi threat download upto x10
+ * Upload & Download at Maximum Speed
+ * Premitive Classic web design 😂
+ * Darkmod Enabled
+ * No such upload limit
+ * No heroku Bans like Aria2ng.
+ * Safe and secure
+ * Foldered torrents downloads only available
+# Known issues
+ * Failed downloads 
+ * magnet / torrent may not upload automatically
+ * magnet links stucks at seeding after downloaded
+# screenshots
+![demo](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210430_195357.jpg)
+![demo0](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210501_022628.jpg)
+![demo1](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210430_202409.jpg)
+![demo2](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210430_200026.jpg)
+![demo3](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210430_195357.jpg)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+this repo is under development
 
-```markdown
-Syntax highlighted code block
+##### Donate me BTC: 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
