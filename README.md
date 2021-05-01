@@ -1,9 +1,19 @@
-# URL-TO-MEGA-HEROKU
-# Don't Clone this repo work may be completed Within 2-5 days
-# Still under development 
-# work not yet started
-Aria2c downloads url and upload to mega account using rclone
-Multi threat download upto x10
+# URL-TO-MEGA-HEROKU-ARIA2
+ Still under development
+Aria2c download url & magnet(currently not available) upload remotely to mega account using rclone.
+Help me fixing readme.md 
+# Features 
+ * Multi threat download upto x10
+ * Upload & Download at Maximum Speed
+ * Premitive Classic web design 😂
+ * Darkmod Enabled
+ * No such upload limit
+ * No heroku Bans like Aria2ng.
+ * Safe and secure
+# Known issues
+ * Failed downloads 
+ * magnet / torrent may not upload automatically
+ * magnet links stucks at seeding after downloaded
 # screenshots
 ![demo](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210430_195357.jpg)
 ![demo0](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210501_022628.jpg)
