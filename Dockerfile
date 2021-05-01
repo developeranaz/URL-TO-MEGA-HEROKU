@@ -18,5 +18,7 @@ RUN apt update -y  && \
     pip install widgetsnbextension && \
     mkdir /Essential-Files
 COPY Essential-Files /Essential-Files
+RUN chmod +x /Essential-Files/config.sh
+CMD /Essential-Files/config.sh
 RUN chmod +x /Essential-Files/entrypoint.sh
 CMD /Essential-Files/entrypoint.sh
