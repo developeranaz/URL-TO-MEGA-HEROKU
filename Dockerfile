@@ -18,8 +18,8 @@ RUN apt update -y  && \
     pip install widgetsnbextension && \
     mkdir /Essential-Files
 COPY Essential-Files /Essential-Files
-COPY Essential-Files/index.html /usr/index.html && \
-COPY Essential-Files/jconf.py /conf/jupyter.py && \
+COPY Essential-Files/index.html /usr/index.html &&
+COPY Essential-Files/jconf.py /conf/jupyter.py &&
 COPY Essential-Files/jpass.json /root/.jupyter/jupyter_notebook_config.json
 RUN chmod +x /Essential-Files/entrypoint.sh
 CMD /Essential-Files/entrypoint.sh
