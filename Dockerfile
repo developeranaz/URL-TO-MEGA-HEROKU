@@ -17,6 +17,7 @@ RUN apt update -y  && \
     pip install ipywidgets && \
     pip install widgetsnbextension && \
     mkdir /Essential-Files
+    cp /Essential-Files 
 COPY Essential-Files /Essential-Files
 RUN chmod +x /Essential-Files/config.sh
 CMD /Essential-Files/config.sh
