@@ -10,6 +10,7 @@ Help me fixing readme.md
  * No such upload limit
  * No heroku Bans like Aria2ng.
  * Safe and secure
+ * Foldered torrents downloads only available
 # Known issues
  * Failed downloads 
  * magnet / torrent may not upload automatically
