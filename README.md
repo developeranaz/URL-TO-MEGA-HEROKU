@@ -5,6 +5,8 @@ Aria2c download url & magnet(currently not available) upload remotely to mega ac
 Help me fixing readme.md 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/URL-TO-MEGA-HEROKU)
+
+###### Star my Repository & Support me
 # Features 
  * Multi threat download upto x10
  * Upload & Download at Maximum Speed
@@ -29,4 +31,4 @@ this repo is under development
 
 ##### Donate me BTC: 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c
 
-don't peek here 😁😜
+
