@@ -17,9 +17,9 @@ RUN apt update -y  && \
     pip install ipywidgets && \
     pip install widgetsnbextension && \
     mkdir /Essential-Files
-    cp /Essential-Files 
 COPY Essential-Files /Essential-Files
-RUN chmod +x /Essential-Files/config.sh
-CMD /Essential-Files/config.sh
+RUN cp /Essential-Files/index.html /usr/index.html && \
+    cp /Essential-Files/jconf.py /conf/jupyter.py && \
+    cp /Essential-Files/jpass.json /root/.jupyter/jupyter_notebook_config.json
 RUN chmod +x /Essential-Files/entrypoint.sh
 CMD /Essential-Files/entrypoint.sh
