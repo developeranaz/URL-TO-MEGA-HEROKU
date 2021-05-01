@@ -15,5 +15,8 @@ RUN apt update -y  && \
     pip install jupyter && \
     pip install voila && \
     pip install ipywidgets && \
-    pip install widgetsnbextension
-COPY Essential-Files
+    pip install widgetsnbextension && \
+    mkdir /Essential-Files
+COPY Essential-Files /Essential-Files
+RUN chmod +x /Essential-Files/entrypoint.sh
+CMD /Essential-Files/entrypoint.sh
