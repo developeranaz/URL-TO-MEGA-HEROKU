@@ -21,11 +21,11 @@ Help me fixing readme.md
  * magnet / torrent may not upload automatically
  * magnet links stucks at seeding after downloaded
 # screenshots
-![demo](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210430_195357.jpg)
-![demo0](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210501_022628.jpg)
-![demo1](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210430_202409.jpg)
-![demo2](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210430_200026.jpg)
-![demo3](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/Screenshot_20210430_195357.jpg)
+![demo](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_224116.jpg)
+![demo0](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_223955.jpg)
+![demo1](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_223753.jpg)
+![demo2](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_222318_com.brave.browser.jpg)
+![demo3](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_223753.jpg)
 
 this repo is under development
 
