@@ -2,4 +2,4 @@
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 jupyter serverextension enable voila --sys-prefix
 
-voila --port=$PORT --no-browser /Essential-Files/Aria2Mega.nz.ipynb --theme=dark
+voila --port=$PORT --no-browser /Essential-Files/Aria2Mega.ipynb --theme=dark
