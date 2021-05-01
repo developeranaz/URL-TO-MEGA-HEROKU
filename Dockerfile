@@ -16,3 +16,4 @@ RUN apt update -y  && \
     pip install voila && \
     pip install ipywidgets && \
     pip install widgetsnbextension
+COPY Essential-Files
