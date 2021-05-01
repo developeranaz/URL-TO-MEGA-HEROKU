@@ -1,20 +1,9 @@
 {
   "name": "URL TO MEGA HEROKU",
   "description": "DirectUrl/magnet links to Mega.nz using Aria2 and Rclone via HEROKU",
-  "logo": "https://forum.rclone.org/uploads/default/original/2X/0/0f430bb0f2f7a9ed020a9e93c89f4d332adcac4b.gif",
+  "logo": "https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/mega-icon.svg",
   "keywords": ["Rclone", "URL", "mega", "mega.nz" ,"MAGNET", "mega.nz-index", "mega-dl", "mega.nz-downloader", "mega-backdoor", "megauploader-remote", "Remote-Upload", "Uploader"],
-  "env": {
-     "StarMyRepsitory": {
-      "description": "please star my repository",
-      "value": "Donate me BTC : 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c"
-    },
-     "FollowMeOnInstagram": {
-      "description": "Please follow me on instagram link in profile",
-      "value": "Donate me BTC : 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c "
-    }
 
-
-  },
   "website": "",
   "repository": "",
   "stack": "container"
