@@ -19,7 +19,7 @@ RUN apt update -y  && \
     mkdir /Essential-Files
 COPY Essential-Files /Essential-Files
 COPY Essential-Files/index.html /usr/index.html
-RUN cp '/Essential-Files/jconf.py' '/conf/jupyter.py'
-RUN cp '/Essential-Files/jpass.json' '/root/.jupyter/jupyter_notebook_config.json'
+#RUN cp '/Essential-Files/jconf.py' '/conf/jupyter.py'
+#RUN cp '/Essential-Files/jpass.json' '/root/.jupyter/jupyter_notebook_config.json'
 RUN chmod +x /Essential-Files/entrypoint.sh
 CMD /Essential-Files/entrypoint.sh
