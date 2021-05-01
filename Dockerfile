@@ -17,7 +17,7 @@ RUN apt update -y  && \
     pip install ipywidgets && \
     pip install widgetsnbextension && \
     mkdir /Essential-Files
-    mkdir /voila
+#    mkdir /voila
     mkdir /voila/files
 COPY Essential-Files /Essential-Files
 COPY Essential-Files/index.html /usr/index.html
