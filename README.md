@@ -10,7 +10,7 @@ Heroku oneclick / Rapid deploy method available
 
 ###### Star my Repository & Support me
 
-## Feel free to post Any [Issues] (https://github.com/developeranaz/URL-TO-MEGA-HEROKU/issues) And share your ideas , Posting issues would help to improve this repo
+## Feel free to post Any [Issues](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/issues) And share your ideas , Posting issues would help to improve this repo
 
 # Features 
  * Multi threat download upto x10
