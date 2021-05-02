@@ -152,7 +152,7 @@
     "        %cd /home/d1\n",
     "        %rm *\n",
     "        ! rclone config create 'CLOUDNAME' 'mega' 'user' {username.value} 'pass' {password.value}\n",
-    "        #wget -nc {config.value} -O '/.config/rclone/rclone.conf'\n",
+    "        ! rclone copy /Essential-Files/d CLOUDNAME:\n",
     "        ! aria2c -x{threats.value} '{name.value}'\n",
     "        ! rclone copy --progress --stats-one-line /home/d1 CLOUDNAME:\n",
     "        # aria2c -x10 {name.value}\n",
