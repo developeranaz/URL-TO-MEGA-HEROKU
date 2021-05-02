@@ -20,6 +20,7 @@ Help me fixing readme.md
  * Failed downloads 
  * magnet / torrent may not upload automatically
  * magnet links stucks at seeding after downloaded
+ * 1 user per 1 download at a time
 # screenshots
 ![demo](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_224116.jpg)
 ![demo0](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_223955.jpg)
