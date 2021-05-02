@@ -15,7 +15,7 @@ Heroku oneclick / Rapid deploy method available
 # Features 
  * Multi threat download upto x10
  * Upload & Download at Maximum Speed
- * Premitive Classic web design 😂
+ * Premitive Classic web design  😂
  * Darkmod Enabled
  * No such upload limit
  * No heroku Bans like Aria2ng.
@@ -26,6 +26,7 @@ Heroku oneclick / Rapid deploy method available
  * magnet / torrent may not upload automatically
  * magnet links stucks at seeding after downloaded
  * 1 user per 1 download at a time
+ * The appearance/ web ui and design is 🤮 🤮 ,because i'mm not a webdesigner🤪
 # screenshots
 ![demo](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_224116.jpg)
 ![demo0](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_223955.jpg)
