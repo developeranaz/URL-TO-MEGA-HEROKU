@@ -17,17 +17,6 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "informal-powell",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "#!jupyter nbextension enable --py widgetsnbextension --sys-prefix\n",
-    "#!jupyter serverextension enable voila --sys-prefix"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
    "id": "reflected-speaker",
    "metadata": {},
    "outputs": [],
@@ -54,27 +43,13 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "reverse-belfast",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "# grandbutt/grandbuttonsdiasbled\n",
-    "\n",
-    "grand = widgets.ToggleButtons(\n",
-    "            options=['x1', 'x2','x3','x4','x5','x6','x7','x8','x9','x10','x20']\n",
-    "        )"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
    "id": "bearing-lover",
    "metadata": {},
    "outputs": [],
    "source": [
     "# magnet/url\n",
     "\n",
-    "name = widgets.Text(placeholder='http://ser.ver.mp4 OR magnet:?xt=ur..annonce')"
+    "name = widgets.Text(placeholder='http://ser.ver.mp4 OR magnet:?xt=ur..annonce' ,flex_flow='column' ,align_items='center')"
    ]
   },
   {
@@ -85,7 +60,12 @@
    "outputs": [],
    "source": [
     "# config\n",
-    "username = widgets.Text(placeholder='username@gmail.com')"
+    "username = widgets.Text(\n",
+    "    value='username@gmail.com',\n",
+    "    placeholder='username',\n",
+    "    description='Username:',\n",
+    "    disabled=False\n",
+    ")"
    ]
   },
   {
@@ -95,18 +75,13 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "# name\n",
-    "password = widgets.Text(placeholder='megapassword')"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "headed-bloom",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "#date = widgets.DatePicker(description='Pick a Date')"
+    "# password\n",
+    "password = widgets.Password(\n",
+    "           value='password',\n",
+    "           placeholder='password',\n",
+    "           description='Password:',\n",
+    "           disabled=False\n",
+    "        )"
    ]
   },
   {
@@ -118,11 +93,12 @@
    "source": [
     "# number of threads\n",
     "threats = widgets.IntSlider(\n",
-    "            value=3, # default value\n",
+    "            value=10, # default value\n",
     "            min=2, \n",
-    "            max=10,\n",
+    "            max=12,\n",
     "            step=1,\n",
-    "            style={'description_width': 'initial', 'handle_color': '#16a085'} \n",
+    "           # style='danger'\n",
+    "            style={'description_width': 'initial', 'handle_color': '#f84834'} \n",
     "        )"
    ]
   },
@@ -134,14 +110,9 @@
    "outputs": [],
    "source": [
     "# button send\n",
-    "#CLOUDNAME = \n",
-    "#cloudname = '' #@para\n",
-    "button_send = widgets.Button(\n",
-    "                description='START DOWNLOAD & UPLOAD',\n",
-    "                tooltip='Send',\n",
-    "                style={'description_width': '5000'}\n",
-    "            )\n",
-    "\n",
+    "from ipywidgets import Button\n",
+    "button_send= Button(description='START UPLOAD',button_style='danger' ,border='solid',width='50%',tooltip='Send')\n",
+    "button_send.layout.align_items = 'center'\n",
     "output = widgets.Output()\n",
     "\n",
     "def on_button_clicked(event):\n",
@@ -172,16 +143,16 @@
    "source": [
     "# stacked right hand side\n",
     "\n",
-    "text_0 = widgets.HTML(value=\"<center><h1><u>Aria2Mega</u></h1></center>\")\n",
+    "#text_0 = widgets.HTML(value=\"<center><h1><u>Aria2Mega</u></h1></center>\")\n",
     "text_1 = widgets.HTML(value=\"<h4>Thread or Max connection Per download 👇</h4>\")\n",
     "line1 = widgets.HTML(value=\"<hr>\")\n",
-    "btc= widgets.HTML(value=\"<h5>DONATE BTC: 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c <br> Developed by developeranaz <br> Issues can be reported here <a> https://github.com/developeranaz/URL-TO-MEGA-HEROKU </a></h5>\")\n",
-    "text_2= widgets.HTML(value=\"<h4>Type your MEGA Username here 👇 </h4>\")\n",
-    "text_3= widgets.HTML(value=\"<h4>Type your Mega Password here 👇</h4>\")\n",
+    "btc= widgets.HTML(value=\"<font color='lime'><h6>DONATE BTC: 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c <br> Developed by developeranaz <br> Issues can be reported here <a> https://github.com/developeranaz/URL-TO-MEGA-HEROKU </a></h6></font>\")\n",
+    "text_2= widgets.HTML(value=\"<h4>Type your MEGA Username and Password here </h4>\")\n",
+    "#text_3= widgets.HTML(value=\"<h4>Type your Mega Password here 👇</h4>\")\n",
     "text_4= widgets.HTML(value=\"<h4>Paste magnet/direct links here 👇</h4>\")\n",
-    "text_5= widgets.HTML(value=\"<h4>Click the download button below 👇</h4>\")\n",
+    "#text_5= widgets.HTML(value=\"<h4>Click the download button below</h4>\")\n",
     "\n",
-    "vbox_text = widgets.VBox([image_headline, text_0, line1, text_4, name, line1, text_1, threats, line1, text_2, username, text_3, password, line1, text_5, vbox_result, btc])"
+    "vbox_text = widgets.VBox([image_headline, line1, text_4, name, line1, text_1, threats, line1, text_2, username, password, line1, vbox_result, btc])"
    ]
   },
   {
