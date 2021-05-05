@@ -32,7 +32,11 @@ Heroku oneclick / Rapid deploy method available
 ![demo0](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/example-imgs/Screenshot_20210506_005030.jpg)
 ![demo1](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/example-imgs/Screenshot_20210506_010117_com.brave.browser.jpg)
 
-this repo is under development
+This repo is under development
+
+# What's New
+* Improved UI
+* Torrent supports but no auto uploads
 
 ##### Donate me BTC: 1J48LksQNiASuj48nwYATXdFzQSwdrnx7c
 
