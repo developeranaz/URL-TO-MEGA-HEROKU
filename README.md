@@ -28,7 +28,7 @@ Heroku oneclick / Rapid deploy method available
  * 1 user per 1 download at a time
  * The appearance/ web ui and design is 🤮 🤮 ,because i'mm not a webdesigner🤪
 # screenshots
-![demo](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_224116.jpg)
+![demo](https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/example-imgs/Screenshot_20210506_010431.jpg)
 ![demo0](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_223955.jpg)
 ![demo1](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_223753.jpg)
 ![demo2](https://github.com/developeranaz/URL-TO-MEGA-HEROKU/blob/main/Demo-example-images-1/Screenshot_20210501_222318_com.brave.browser.jpg)
