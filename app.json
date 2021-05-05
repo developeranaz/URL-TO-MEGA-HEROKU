@@ -1,7 +1,7 @@
 {
   "name": "URL TO MEGA HEROKU",
   "description": "DirectUrl/magnet links to Mega.nz using Aria2 and Rclone via HEROKU",
-  "logo": "https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/Demo-example-images-1/mega-icon.svg",
+  "logo": "https://raw.githubusercontent.com/developeranaz/URL-TO-MEGA-HEROKU/main/example-imgs/mega-icon.svg",
   "keywords": ["Rclone", "URL", "mega", "mega.nz" ,"MAGNET", "mega.nz-index", "mega-dl", "mega.nz-downloader", "mega-backdoor", "megauploader-remote", "Remote-Upload", "Uploader"],
 
   "website": "",
