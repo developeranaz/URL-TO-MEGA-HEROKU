@@ -1,3 +1,4 @@
+# Won't Work anymore evolve to https://github.com/developeranaz/URL-Magnet-Cloud-Uploader-Heroku
 # URL-TO-MEGA-HEROKU-ARIA2
  Still under development
 Aria2c download url & magnet (currently not available) upload remotely to mega account using rclone.
